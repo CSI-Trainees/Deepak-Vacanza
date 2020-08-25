@@ -4,12 +4,16 @@
 	box-sizing: border-box;
 	font-family: 'Josefin Sans', sans-serif;
 }
-header{
-	width: 100%;
-	height: 90vh;
+.mainheader{
 	background-image: url(../img/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
+
+}
+header{
+	width: 100%;
+	height: 90vh;
 	background-color: rgba(0,0,0,0.5);
 }
 nav{
@@ -27,6 +31,8 @@ nav a{
 	font-size: 24px;
 	font-weight: bold;
 	text-decoration: none;
+	color: white;
+	position: fixed;
 }
 main{
 	width: 100%;
@@ -36,6 +42,8 @@ main{
 	align-items: center;
 	text-align: center;
 	color: white;
+	padding: 0;
+	margin: 0;
 }
 .logo{
 	margin-top: 45px;
@@ -43,16 +51,73 @@ main{
 }
 button{
 	margin-top: 20px;
-	border-radius: 1px solid black;
+	border-radius: 30px;
+	border-color: white;
+	background-color: rgba(0,0,0,0.5)
 }
 .btnone{
-	padding: 10px 30px;
+	padding: 18px 35px;
 }
 .btntwo{
-	padding: 10px 30px;a
+	padding: 18px 35px;a
 
 }
 button a{
 	text-decoration: none;
-	color: black;
+	color: white;
+	font-size: 18px;
+}
+.logo:hover{
+	transform: rotate(540deg) scale(1.2);
+}
+.maincontent{
+	width: 100%;
+	background-color: #D5D8DC;
+}
+.color{
+	background-color: #D5D8DC;
+}
+.secone{
+	width: 88%;
+	height: 270px;
+	background-color: white;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+
+}
+.secone .roundoneimg{
+	float: right;
+}
+.color .roundone{
+	width: 50%;
+}
+.sectwo{
+	width: 88%;
+	height: 270px;
+	background-color: white;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.secthree{
+	width: 88%;
+	height: 270px;
+	background-color: white;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+footer .mainfooter{
+	width: 100%;
+}
+.mainfooter .contactlogo{
+	background-image: url(../img/footer.png);
+	height: 120px;
+}
+.mainfooter .copyright{
+	height: 20px;
+	background-color: #1D8348 
 }
