@@ -49,7 +49,7 @@ main{
 	margin-top: 45px;
 	margin-bottom: 20px;s
 }
-button{
+.mainone button{
 	margin-top: 20px;
 	border-radius: 30px;
 	border-color: white;
@@ -62,7 +62,7 @@ button{
 	padding: 18px 35px;a
 
 }
-button a{
+.mainone button a{
 	text-decoration: none;
 	color: white;
 	font-size: 18px;
@@ -70,6 +70,10 @@ button a{
 .logo:hover{
 	transform: rotate(540deg) scale(1.2);
 }
+
+/** FOR SECOND MAIN**/
+
+
 .maincontent{
 	width: 100%;
 	background-color: #D5D8DC;
@@ -77,20 +81,72 @@ button a{
 .color{
 	background-color: #D5D8DC;
 }
+
+
+
+/**** DECORATION FOR SECTION ONE ****/
+
+
+
 .secone{
 	width: 88%;
 	height: 270px;
 	background-color: white;
 	margin-left: 80px;
 	margin-right: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
+	position: relative;
+	top: 50px;
+	color: #797D7F;
+	box-shadow: 2px 2px 5px black;
 
+}
+.secone .roundone{
+	float: left;
+	margin: 25px 18px;
+}
+.secone .roundone h1{
+	font-weight: 250;
+	color: #424949;
+}
+.secone .roundone p{
+	margin-top: 20px;
+	font-weight: 150;
+	font-size: 20px;
+	word-spacing: 1px;
+	line-height: 25px;
+}
+.secone .roundone h3{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 25px;
+	font-size: 20px;
+	word-spacing: 1px;
+}
+.secone .roundone button{
+	padding: 12px 25px;
+	border-radius: 2px;
+	margin-top: 0;
+	background: white;
+}
+.roundone button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #797D7F;
 }
 .secone .roundoneimg{
 	float: right;
+	clip-path: polygon(38% 0, 100% 0%, 100% 99%, 0% 100%);
 }
 .color .roundone{
-	width: 50%;
+	width: 67%;
+}
+
+/**** DECORATION FOR SECTION TWO ***/
+
+
+.color .roundtwo{
+	width: 67%;
 }
 .sectwo{
 	width: 88%;
@@ -100,7 +156,56 @@ button a{
 	margin-right: 20px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	color: #797D7F;
+	box-shadow: 2px 2px 5px black;
+}
+.sectwo .roundtwo{
+	float: right;
+	margin: 25px 18px;
+}
+.sectwo .roundtwo h1{
+	font-weight: 250;
+	color: #424949;
+}
+.sectwo .roundtwo .pone{
+	margin-top: 20px;
+	font-weight: 150;
+	font-size: 20px;
+	word-spacing: 1px;
+	line-height: 25px;
+}
+.sectwo .roundtwo h3{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 25px;
+	font-size: 20px;
+	word-spacing: 1px;
+}
+.sectwo .roundtwo button{
+	padding: 12px 25px;
+	border-radius: 2px;
+	margin-top: 0;
+	background: white;
+	position: relative;
+	top: 15px;
+}
+.roundtwo button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #797D7F;
+}
 
+.sectwo .roundtwoimg{
+	float: left;
+	clip-path: polygon(0 0, 54% 0, 100% 100%, 0% 100%);
+}
+
+
+/**** DECORATION FOR SECTION THREE ***/
+
+
+.color .roundthree{
+	width: 67%;
 }
 .secthree{
 	width: 88%;
@@ -108,16 +213,75 @@ button a{
 	background-color: white;
 	margin-left: 80px;
 	margin-right: 20px;
-	margin-top: 50px;
+	margin-top: 150px;
+	position: relative;
+	bottom: 100px;
+	color: #797D7F;
+	box-shadow: 2px 2px 5px black;
+}
+.secthree .roundthree{
+	float: left;
+	margin: 25px 18px;
+}
+.secthree .roundthree h1{
+	font-weight: 250;
+	color: #424949;
+}
+.secthree .roundthree p{
+	margin-top: 20px;
+	font-weight: 150;
+	font-size: 20px;
+	word-spacing: 1px;
+	line-height: 25px;
+}
+.secthree .roundthree button{
+	padding: 12px 25px;
+	border-radius: 2px;
+	margin-top: 0;
+	background: white;
+	position: relative;
+	top: 15px;
+}
+.roundthree button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #797D7F;
+}
+.secthree .roundthreeimg{
+	float: right;
+	clip-path: polygon(38% 0, 100% 0%, 100% 99%, 0% 100%);
 }
 footer .mainfooter{
 	width: 100%;
 }
 .mainfooter .contactlogo{
 	background-image: url(../img/footer.png);
+	background-size: cover;
 	height: 120px;
 }
 .mainfooter .copyright{
-	height: 20px;
-	background-color: #1D8348 
+	height: 32px;
+	background-color: #4A235A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: white;
+}
+i{
+	color: white;
+}
+.opp{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.contactlogo{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.fa{
+	margin-right: 4px;
 }
