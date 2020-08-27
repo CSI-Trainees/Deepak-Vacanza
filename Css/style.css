@@ -258,6 +258,7 @@ footer .mainfooter{
 	background-image: url(../img/footer.png);
 	background-size: cover;
 	height: 120px;
+	padding-top: 0;
 }
 .mainfooter .copyright{
 	height: 32px;
