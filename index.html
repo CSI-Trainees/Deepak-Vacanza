@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="Css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -13,8 +14,21 @@
 		<header>
 			<nav>
 				<div class="icon"><a class="animated infinite heartBeat delay-2s" href="https://csiakgec.in/index" target="_blank">CSI</a></div>
-				<div class="menu"><button></button></div>
-			</nav>
+				<div class="togglearea">
+                <label for="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+        		</div>
+
+        		<input type="checkbox" id="toggle">
+            	<div class="nav-right">
+                	<a href="#">HOME</a>
+                	<a href="#">ROUNDS</a>
+                	<a href="#">QUIZZES</a>
+            	</div>
+            </nav>
 			<main class="mainone">
 				<div class="logo"><img src="img/logo.png" width="220"></div>
 				<div class="animate"><img src="img/vac.svg" width="45%"></div>
@@ -50,7 +64,7 @@
 						<h3>The field are as follows:</h3>
 						Football  &nbsp; | &nbsp;  Stranger Things &nbsp;  | &nbsp;  Cricket  &nbsp; | &nbsp;  F.r.i.e.n.d.s
 					</p>
-					<button><a href="#">RULES</a></button>
+					<button class="btnfour"><a href="#">RULES</a></button>
 
 				</div>
 			</section>
@@ -62,7 +76,7 @@
 						The final round consists of making an interesting and astonishing magic trick video which might force people to say 
 						<p>“How did you do that!”. The best and the most surprising video will be selected as the winner.</p>
 					</p>
-					<button><a href="#">RULES</a></button>
+					<button class="btnfive"><a href="#">RULES</a></button>
 				</div>
 				<div class="roundthreeimg"><img src="img/magic.jpg" width="400" height="270"></div>
 			</section>
