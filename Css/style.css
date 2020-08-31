@@ -26,6 +26,7 @@ nav{
 nav .icon{
 	width: 5%;
 	text-align: center;
+	position: fixed;
 }
 nav a{
 	font-size: 24px;
@@ -114,10 +115,7 @@ nav .togglearea label span{
    	transform: rotate(-360deg);
     /*transform: translateX(0);*/
     transition: all .5s;
-    
-     
 }
-
 
 /*** MAIN STARTS FROM HERE ***/
 main{
@@ -134,7 +132,7 @@ main{
 .logo{
 	margin-top: 45px;
 	margin-bottom: 20px;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 	z-index: 10;
 	-webkit-transition:-webkit-transform 0.3s;
 }
@@ -172,7 +170,7 @@ main{
 	font-size: 18px;
 }
 .logo:hover{
-	-webkit-transform: rotate(1440deg) scale(1.2) translateZ(0);
+	-webkit-transform: rotate(1440deg) scale(1.2);
 }
 
 /** FOR SECOND MAIN**/
