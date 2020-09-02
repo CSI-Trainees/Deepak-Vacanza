@@ -414,3 +414,7 @@ i{
 .fa{
 	margin-right: 4px;
 }
+.fa:hover{
+	transform: rotate(15deg);
+	transition-duration: 0.3s;
+}
