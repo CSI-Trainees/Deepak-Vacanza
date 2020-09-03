@@ -386,7 +386,19 @@ footer .mainfooter{
 	background-size: cover;
 	height: 120px;
 	padding-top: 0;
-	overflow: hidden;
+	webkit-animation: zoom 5s infinite;
+	animation: zoom 5s infinite;
+}
+@keyframes zoom{
+	0%{
+		background-size: 100%;
+	}
+	50%{
+		background-size: 105%;
+	}
+	100%{
+		background-size: 100%;
+	}
 }
 .mainfooter .copyright{
 	height: 32px;
